@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Albuquerque Police Department - 10 Code</title>
+  <style>
+    body {
+      font-family: 'Courier New', Courier, monospace
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    #myInput {
+      width: 100%;
+      font-size: 16px;
+      padding: 12px 20px 12px 40px;
+      border: 1px solid #ddd;
+      margin-bottom: 12px;
+    }
+
+    #myTable {
+      border-collapse: collapse;
+      width: 100%;
+      border: 1px solid #ddd;
+      font-size: 18px;
+    }
+
+    #myTable th, #myTable td {
+      text-align: left;
+      padding: 12px;
+      text-transform: uppercase;
+    }
+
+    #myTable tr {
+      border-bottom: 1px solid #ddd;
+    }
+
+    #myTable tr.header, #myTable tr:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Albuquerque Police Department - 10 Code</h1>
+
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." title="Type in a code or description">
+
+  <table id="myTable">
+    <tr class="header">
+      <th style="width:10%;">Code</th>
+      <th style="width:90%;">Description</th>
+    </tr>
+    <tr><td>10-0</td><td>Welfare Check</td></tr>
+    <tr><td>10-01</td><td>Receiving Poorly</td></tr>
+    <tr><td>10-02</td><td>Receiving Well</td></tr>
+    <tr><td>10-03</td><td>Stop Transmitting</td></tr>
+    <tr><td>10-04</td><td>OK/Understand</td></tr>
+    <tr><td>10-05</td><td>Relay Message</td></tr>
+    <tr><td>10-06</td><td>Busy on Non Dispatch Activity</td></tr>
+    <tr><td>10-07</td><td>Out of Service</td></tr>
+    <tr><td>10-08</td><td>In Service</td></tr>
+    <tr><td>10-09</td><td>Repeat transmission</td></tr>
+    <tr><td>10-10</td><td>Periodic Watch</td></tr>
+    <tr><td>10-11</td><td>Animal Call</td></tr>
+    <tr><td>10-12</td><td>Check MVD Revocation</td></tr>
+    <tr><td>10-13</td><td>Advise Weather/Road Conditions</td></tr>
+    <tr><td>10-14</td><td>Escort</td></tr>
+    <tr><td>10-15</td><td>Family Fight/Domestic Violence</td></tr>
+    <tr><td>15-1</td><td>Domestic Relations Escort</td></tr>
+    <tr><td>10-16</td><td>Prisoner in Custody/Pickup</td></tr>
+    <tr><td>10-17</td><td>Pick up/Deliver Items</td></tr>
+    <tr><td>10-18</td><td>Drunk</td></tr>
+    <tr><td>10-19</td><td>Return To</td></tr>
+    <tr><td>10-20</td><td>Location</td></tr>
+    <tr><td>10-21</td><td>Telephone</td></tr>
+    <tr><td>10-22</td><td>Send Blood Technician</td></tr>
+    <tr><td>10-23</td><td>Sex Offense</td></tr>
+    <tr><td>10-24</td><td>Direct Traffic</td></tr>
+    <tr><td>10-25</td><td>Contact</td></tr>
+    <tr><td>10-26</td><td>Check Auto Registration</td></tr>
+    <tr><td>10-27</td><td>Investigation of</td></tr>
+    <tr><td>27-0</td><td>Forgery Check/Credit Card</td></tr>
+    <tr><td>27-1</td><td>Homicide</td></tr>
+    <tr><td>27-2</td><td>Criminal Sexual Penetration</td></tr>
+    <tr><td>27-3</td><td>Robbery</td></tr>
+    <tr><td>27-3A</td><td>Auto/Car Jacking</td></tr>
+    <tr><td>27-3C</td><td>Commercial Armed Robbery</td></tr>
+    <tr><td>27-3E</td><td>Emergency Alarm-ETS Activation</td></tr>
+    <tr><td>27-3I</td><td>Individual Armed Robbery</td></tr>
+    <tr><td>27-3R</td><td>Residential Armed Robbery (Home Invasion)</td></tr>
+    <tr><td>27-4</td><td>Aggravated Assualt/Battery</td></tr>
+    <tr><td>27-5</td><td>Burglary</td></tr>
+    <tr><td>27-5A</td><td>Auto Burglary</td></tr>
+    <tr><td>27-5C</td><td>Commercial Burglary</td></tr>
+    <tr><td>27-5E</td><td>Burglary ETS Activiation</td></tr>
+    <tr><td>27-5R</td><td>Residential Burglary</td></tr>
+    <tr><td>27-6</td><td>Theft, Fraud, Embezzlement</td></tr>
+    <tr><td>27-6M</td><td>Theft-Metal</td></tr>
+    <tr><td>27-7</td><td>Auto Theft</td></tr>
+    <tr><td>27-7E</td><td>Emergency Alarm-Bait Activation</td></tr>
+    <tr><td>27-7F</td><td>Found (Located Stolen Vehicle)</td></tr>
+    <tr><td>27-7W</td><td>Warm Up - Stolen Vehicle</td></tr>
+    <tr><td>27-8</td><td>Shooting</td></tr>
+    <tr><td>27-9</td><td>Stabbing</td></tr>
+    <tr><td>10-28</td><td>Missing Person</td></tr>
+    <tr><td>10-29</td><td>Wanted Check or Broadcast</td></tr>
+    <tr><td>10-30</td><td>Juvenile</td></tr>
+    <tr><td>10-31</td><td>Suspicious Person or Vehicle</td></tr>
+    <tr><td>31-1</td><td>E911 Hang Up Call</td></tr>
+    <tr><td>31D</td><td>Suspicious/Intoxicated Subject</td></tr>
+    <tr><td>10-32</td><td>Fight in Progress</td></tr>
+    <tr><td>10-33</td><td>Fire</td></tr>
+    <tr><td>10-34</td><td>Officer or Meet Officer</td></tr>
+    <tr><td>10-35</td><td>Prowler</td></tr>
+    <tr><td>10-36</td><td>Time of Day</td></tr>
+    <tr><td>10-37</td><td>Shoplifter</td></tr>
+    <tr><td>10-38</td><td>Vandalism</td></tr>
+    <tr><td>38M</td><td>Damage Transformers, ETC-Metal</td></tr>
+    <tr><td>10-39</td><td>Disturbance</td></tr>
+    <tr><td>39-1</td><td>Loud Music</td></tr>
+    <tr><td>39-2</td><td>Loud Party</td></tr>
+    <tr><td>39-3</td><td>Shots Fired</td></tr>
+    <tr><td>39-4</td><td>Aggressive Drivers/Road Rage</td></tr>
+    <tr><td>39-5</td><td>Pan Handlers</td></tr>
+    <tr><td>10-40</td><td>Mental Patient</td></tr>
+    <tr><td>10-41</td><td>Neighbor Trouble</td></tr>
+    <tr><td>10-42</td><td>Request Dispatch Time/Reports</td></tr>
+    <tr><td>10-43</td><td>Rescue Call</td></tr>
+    <tr><td>43-1</td><td>Suicide</td></tr>
+    <tr><td>10-44</td><td>Traffic Accident No Injuries</td></tr>
+    <tr><td>10-45</td><td>Traffic Accident Injuries</td></tr>
+    <tr><td>10-46</td><td>Wrecker (Tow/Repo)</td></tr>
+    <tr><td>10-47</td><td>Drunk Driver</td></tr>
+    <tr><td>10-48</td><td>Use Caution</td></tr>
+    <tr><td>10-49</td><td>Any Traffic</td></tr>
+    <tr><td>10-50</td><td>No Traffic</td></tr>
+    <tr><td>10-51</td><td>Message for Delivery</td></tr>
+    <tr><td>10-52</td><td>Audible Alarm</td></tr>
+    <tr><td>10-53</td><td>Silent Alarm</td></tr>
+    <tr><td>10-54</td><td>Traffic Stop</td></tr>
+    <tr><td>10-55</td><td>Ambulance Call</td></tr>
+    <tr><td>10-56</td><td>Arrived at Scene</td></tr>
+    <tr><td>10-57</td><td>Narcotics</td></tr>
+    <tr><td>10-58</td><td>DOA</td></tr>
+    <tr><td>10-59</td><td>Bomb Threat</td></tr>
+    <tr><td>10-60</td><td>Coffee Break</td></tr>
+    <tr><td>10-61</td><td>Lunch Break</td></tr>
+    <tr><td>10-62</td><td>Logged On/Off Duty Officer</td></tr>
+    <tr><td>62-1</td><td>Chiefs Overtime</td></tr>
+    <tr><td>10-64</td><td>Field Investigator</td></tr>
+    <tr><td>10-65</td><td>Kidnapping, Abduction, Hostage</td></tr>
+    <tr><td>10-66</td><td>Nature Call</td></tr>
+    <tr><td>10-69</td><td>Sniper</td></tr>
+    <tr><td>10-70</td><td>Chemical Spill</td></tr>
+    <tr><td>10-74</td><td>Tactical Plan</td></tr>
+    <tr><td>10-75</td><td>Miscellaneous Out Code</td></tr>
+    <tr><td>10-76</td><td>Send SWAT Team</td></tr>
+    <tr><td>10-80</td><td>Demonstration</td></tr>
+    <tr><td>10-81</td><td>Civil Disturbance/Riot</td></tr>
+    <tr><td>10-82</td><td>Cover Assistance</td></tr>
+    <tr><td>10-83</td><td>Officer In Trouble</td></tr>
+    <tr><td>10-88</td><td>True Alarm</td></tr>
+    <tr><td>10-89</td><td>False Alarm</td></tr>
+    <tr><td>10-90</td><td>Vehicle Maintenance</td></tr>
+    <tr><td>10-91</td><td>Vehicle Fuel</td></tr>
+    <tr><td>10-92</td><td>Court</td></tr>
+    <tr><td>10-99</td><td>Officer Held Hostage</td></tr>
+  </table>
+
+  <script>
+    function myFunction() {
+      var input, filter, table, tr, td, i;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("myTable");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        td2 = tr[i].getElementsByTagName("td")[1];
+        if (td && td2) {
+          if (
+            td.innerHTML.toUpperCase().indexOf(filter) > -1 ||
+            td2.innerHTML.toUpperCase().indexOf(filter) > -1
+          ) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
+        }
+      }
+    }
+  </script>
+</body>
+
+</html>
